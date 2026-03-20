@@ -45,8 +45,8 @@ const contactInfo = {
     },
     {
       icon: Phone,
-      text: "+54 9 11 6202-5141",
-      href: "https://wa.me/5491162025141",
+      text: "+54 9 3434 62-1056",
+      href: "https://wa.me/5493434621056",
     },
     {
       icon: MapPin,
