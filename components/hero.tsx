@@ -9,11 +9,11 @@ export default function Hero() {
 
   const content = {
     es: {
-      heading: "EXPERIENCIAS VISUALES EXTRAORDINARIAS",
+      heading: "Dirección visual para experiencias en vivo y contenidos animados",
       subheading: "Pantallas que conectan, contenido que impacta.",
     },
     en: {
-      heading: "EXTRAORDINARY VISUAL EXPERIENCES",
+      heading: "Visual direction for live experiences and animated content",
       subheading: "Screens that connect, content that impacts.",
     },
   }
