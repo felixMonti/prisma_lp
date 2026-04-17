@@ -14,7 +14,7 @@ const navItems = {
   es: [
     { name: "Inicio", href: "#hero" },
     { name: "¿Qué es Prisma?", href: "#about" },
-    { name: "Servicios", href: "#services" },
+    { name: "Qué Hacemos", href: "#services" },
     { name: "¿Por qué PRISMA?", href: "#why-us" },
     { name: "Galería", href: "#gallery" },
     { name: "Clientes", href: "#clients" },
@@ -23,7 +23,7 @@ const navItems = {
   en: [
     { name: "Home", href: "#hero" },
     { name: "What is Prisma?", href: "#about" },
-    { name: "Services", href: "#services" },
+    { name: "What We Do", href: "#services" },
     { name: "Why PRISMA?", href: "#why-us" },
     { name: "Gallery", href: "#gallery" },
     { name: "Clients", href: "#clients" },
