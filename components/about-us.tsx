@@ -40,6 +40,7 @@ export default function AboutUs() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">{content[language].title}</h2>
             <p className="text-muted-foreground mb-6">{content[language].paragraph1}</p>
             <p className="text-muted-foreground">{content[language].paragraph2}</p>
+            <p className="text-muted-foreground">{content[language].paragraph3}</p>
           </div>
           <div className="relative w-full aspect-[4/3]">
             <Image
