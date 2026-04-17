@@ -50,5 +50,57 @@ export const images = {
       src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Foto%205.jpg-NKtY5y3o6mI4YXB14ppksErI2VqeNM.jpeg",
       alt: "Artistic blue waves visual display with Meeting Lab branding",
     },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/17-%20ELEMENTS%202025%20THE%20ELEMENT%20-%20%20BY%20MADNESS%20-%20REDES%20.JPG-6cMgoLStAa29u9OE2IlqCdGPNuJtUz.jpeg",
+      alt: "DJ performing at Elements 2025 with purple LED screen and crowd",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/75-%20ELEMENTS%20-%20ZAC%20-%20%20BY%20MADNESS%20-%20REDES.JPG-rYjgOUWT6IeRIMsE1Am30g2Xrmlm1v.jpeg",
+      alt: "Red-lit stage with DJ and large LED screen showing graphic art",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/50-%20ELEMENTS%20-%20ZAC%20-%20%20BY%20MADNESS%20-%20REDES.JPG-PPy70zTQ5sDERJUMyBGpAoOL134Xci.jpeg",
+      alt: "Club scene with confetti and red blue lighting",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-%20ELEMENTS%20-%20ZAC%20-%20%20BY%20MADNESS%20-%20REDES.JPG-WKheJoVJ6i2UbVuq7J60x9YpInqnLD.jpeg",
+      alt: "Blue-lit stage with two DJs and geometric visuals",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/90-%20ELEMENTS%20-%20ZAC%20-%20%20BY%20MADNESS%20-%20REDES.JPG-tmkIiTzt4Gnyk9eyqEV0cLcwd7ksDD.jpeg",
+      alt: "DJ from behind in red lighting working on decks",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/72-%20MEETING%20LAB%20-%20MELANIE%20RIBBE-%20%20BY%20MADNESS%20%281%29.JPG-JzflKQbj7igAuDQaypnjoSGtfTxOW9.jpeg",
+      alt: "Orange psychedelic visuals on screen with crowd at Meeting Lab",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Copia%20de%2067-%20MEETING%20LAB%20-%20MELANIE%20RIBBE-%20%20BY%20MADNESS.JPG-2QRSEi1L2AvriEcAS0diE6c0Dy3rFg.jpeg",
+      alt: "DJ on stage with dramatic orange organic visuals",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/61-%20ELEMENTS%202025%20THE%20ELEMENT%20-%20%20BY%20MADNESS%20-%20REDES%20.JPG-0Vs0LiteIWZ7gGyqbfYf5bILrLYi1Q.jpeg",
+      alt: "Blue-lit stage with geometric diamond visuals and crowd",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/66-%20MEETING%20LAB%20-%20MELANIE%20RIBBE-%20%20BY%20MADNESS.JPG-VYdy5fYWIzQMa44FM7Bo4Y4Sl7Hjqe.jpeg",
+      alt: "DJ performing with dramatic orange fluid visuals at Meeting Lab",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/55-%20MEETING%20LAB%20-%20MELANIE%20RIBBE-%20%20BY%20MADNESS.JPG-RpxuUiehciw1Z1mgcF8mJmSKr7rwMK.jpeg",
+      alt: "Red-lit venue with geometric butterfly visuals and large crowd",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7-%20MEETING%20LAB%20-%20MELANIE%20RIBBE-%20%20BY%20MADNESS.JPG-xhKqnpN8OUqPavvfAx8LqkNlzwsTgN.jpeg",
+      alt: "Red-lit venue with bubble sphere visuals and Meeting Lab logo",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/86-%20MEETING%20LAB%20-%20MELANIE%20RIBBE-%20%20BY%20MADNESS.JPG-EuXQbxxgf265Cg64I7NvMm6ocOgOQR.jpeg",
+      alt: "White geometric visuals on angled screen with crowd dancing",
+    },
+    {
+      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/12-%20MEETING%20LAB%20-%20MELANIE%20RIBBE-%20%20BY%20MADNESS-1.JPG-7W4c9oNCcceFSFEjDrh8qQWt1K5iRA.jpeg",
+      alt: "DJ in orange red lighting working on equipment",
+    },
   ],
 } as const
