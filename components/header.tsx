@@ -13,7 +13,7 @@ import { useLanguage } from "@/contexts/LanguageContext"
 const navItems = {
   es: [
     { name: "Inicio", href: "#hero" },
-    { name: "¿Quiénes Somos?", href: "#about" },
+    { name: "¿Qué es Prisma?", href: "#about" },
     { name: "Servicios", href: "#services" },
     { name: "¿Por qué PRISMA?", href: "#why-us" },
     { name: "Galería", href: "#gallery" },
@@ -22,7 +22,7 @@ const navItems = {
   ],
   en: [
     { name: "Home", href: "#hero" },
-    { name: "About Us", href: "#about" },
+    { name: "What is Prisma?", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Why PRISMA?", href: "#why-us" },
     { name: "Gallery", href: "#gallery" },
