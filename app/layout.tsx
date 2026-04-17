@@ -1,11 +1,11 @@
-import { Inter } from "next/font/google"
+import { Jost } from "next/font/google"
 import "./globals.css"
 import type React from "react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { LanguageProvider } from "@/contexts/LanguageContext"
 
-const inter = Inter({ subsets: ["latin"] })
+const jost = Jost({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Prisma Visual Live",
@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${inter.className} bg-gradient-to-b from-black to-gray-900`}>
+      <body className={`${jost.className} bg-gradient-to-b from-black to-gray-900`}>
         <LanguageProvider>
           <div className="text-foreground min-h-screen flex flex-col">
             <Header />
