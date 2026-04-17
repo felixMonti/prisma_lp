@@ -6,21 +6,25 @@ import Image from "next/image"
 
 const content = {
   es: {
-    title: "¿Qué hacemos?",
+    title: "Qué Hacemos",
+    subtitle1: "Experiencias en Vivo",
     description:
-      "En Prisma Visual Live damos vida a eventos a través de la operación en vivo, edición, creación y diseño de videos impactantes. Convertimos ideas en imágenes que conectan con las emociones y generan recuerdos inolvidables.",
+      "Creamos y operamos visuales en tiempo real para eventos sociales, corporativos, shows y producciones escénicas. Trabajamos con pantallas LED, contenido dinámico y sincronización audiovisual para potenciar el impacto del evento.",
+    subtitle2: "Diseño Visual",
     mission:
-      "Nuestra misión es interpretar cada propuesta con creatividad y precisión, transformando las expectativas de nuestros clientes en experiencias visuales dinámicas que cobran vida en cada pantalla.",
+      "Desarrollamos la identidad visual del proyecto: flyers, contenido digital, animaciones y piezas gráficas que construyen su universo estético. Diseño y ejecución se integran para lograr coherencia visual de principio a fin.",
     offerTitle: "¿Qué ofrecemos?",
     offerDescription: "Ofrecemos un servicio integral de visuales en vivo, incluyendo:",
     eventTypesTitle: "Tipos de Eventos",
   },
   en: {
-    title: "What we do?",
+    title: "What We Do",
+    subtitle1: "Live Experiences",
     description:
-      "At Prisma Visual Live, we bring events to life through live operation, editing, creation, and design of impactful videos. We turn ideas into images that connect with emotions and generate unforgettable memories.",
+      "We create and operate real-time visuals for social events, corporate events, shows, and stage productions. We work with LED screens, dynamic content, and audiovisual synchronization to enhance the event's impact.",
+    subtitle2: "Visual Design",
     mission:
-      "Our mission is to interpret each proposal with creativity and precision, transforming our clients' expectations into dynamic visual experiences that come to life on every screen.",
+      "We develop the visual identity of the project: flyers, digital content, animations, and graphic pieces that build its aesthetic universe. Design and execution are integrated to achieve visual coherence from start to finish.",
     offerTitle: "What we offer?",
     offerDescription: "We offer a comprehensive live visual service, including:",
     eventTypesTitle: "Event Types",
@@ -129,8 +133,10 @@ export default function Services() {
           className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16"
         >
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">{content[language].title}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{content[language].title}</h2>
+            <h3 className="text-xl md:text-2xl font-semibold mb-3 text-primary">{content[language].subtitle1}</h3>
             <p className="text-muted-foreground mb-6">{content[language].description}</p>
+            <h3 className="text-xl md:text-2xl font-semibold mb-3 text-primary">{content[language].subtitle2}</h3>
             <p className="text-muted-foreground">{content[language].mission}</p>
           </div>
           <div className="relative w-full aspect-[4/3]">
