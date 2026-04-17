@@ -96,9 +96,6 @@ export default function HowWeWork() {
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                     <Icon className="w-6 h-6 text-primary" />
                   </div>
-                  <div className="text-sm text-primary font-medium mb-2">
-                    {String(index + 1).padStart(2, "0")}
-                  </div>
                   <h3 className="text-lg font-semibold mb-2">{step.title}</h3>
                   <p className="text-muted-foreground text-sm">{step.description}</p>
                 </div>
