@@ -8,18 +8,22 @@ export default function AboutUs() {
 
   const content = {
     es: {
-      title: "¿Quiénes Somos?",
+      title: "¿Que es PRISMA?",
       paragraph1:
-        "En Prisma Visual Live, somos un equipo dedicado a diseñar experiencias visuales para eventos de alta categoría. Nuestra especialidad radica en la operación técnica de video en tiempo real, el dominio de herramientas digitales avanzadas y una gestión eficiente, siempre acompañada de una atención meticulosa a las relaciones interpersonales.",
+        "Prisma Visual Live es un estudio creativo enfocado en el diseño y la operación de visuales en vivo para eventos.",
       paragraph2:
-        "Trabajamos con un enfoque integral que prioriza la excelencia técnica y la coordinación con cada área involucrada en la producción, asegurando que cada evento alcance el más alto nivel de sofisticación y calidad.",
+        "Dirigido por Belén Dayub, el proyecto combina sensibilidad artística, dominio técnico y lectura escénica para transformar cada evento en una experiencia visual única.",
+      paragraph3:
+        "Trabajamos en tiempo real, integrando visuales, música y performance para construir escenas que impactan y conectan con el público.",
     },
     en: {
-      title: "Who We Are?",
+      title: "What is PRISMA?",
       paragraph1:
-        "At Prisma Visual Live, we are a team dedicated to designing visual experiences for high-end events. Our specialty lies in real-time video technical operation, mastery of advanced digital tools, and efficient management, always accompanied by meticulous attention to interpersonal relationships.",
+        "Prisma Visual Live is a creative studio focused on the design and operation of live visuals for events.",
       paragraph2:
-        "We work with a comprehensive approach that prioritizes technical excellence and coordination with each area involved in production, ensuring that each event reaches the highest level of sophistication and quality.",
+        "Led by Belén Dayub, the project combines artistic sensitivity, technical expertise, and stage awareness to transform each event into a unique visual experience.",
+      paragraph3:
+        "We work in real time, integrating visuals, music, and performance to build scenes that captivate and connect with the audience.",
     },
   }
 
