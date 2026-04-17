@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/contexts/LanguageContext"
 import { Button } from "@/components/ui/button"
+import { Globe } from "lucide-react"
 
 export function LanguageToggle() {
   const { language, toggleLanguage } = useLanguage()
@@ -10,10 +11,11 @@ export function LanguageToggle() {
     <Button
       onClick={toggleLanguage}
       variant="ghost"
-      className="p-2 text-2xl"
+      className="flex items-center gap-2 px-3 py-2"
       aria-label={language === "es" ? "Switch to English" : "Cambiar a Español"}
     >
-      {language === "es" ? "🇦🇷" : "🇬🇧"}
+      <Globe className="h-5 w-5" />
+      <span className="text-sm font-medium">{language === "es" ? "EN" : "ES"}</span>
     </Button>
   )
 }
