@@ -8,22 +8,18 @@ export default function AboutUs() {
 
   const content = {
     es: {
-      title: "¿Que es PRISMA?",
+      title: "¿Quiénes Somos?",
       paragraph1:
-        "Prisma Visual Live es un estudio creativo enfocado en el diseño y la operación de visuales en vivo para eventos.",
+        "En Prisma Visual Live, somos un equipo dedicado a diseñar experiencias visuales para eventos de alta categoría. Nuestra especialidad radica en la operación técnica de video en tiempo real, el dominio de herramientas digitales avanzadas y una gestión eficiente, siempre acompañada de una atención meticulosa a las relaciones interpersonales.",
       paragraph2:
-        "Dirigido por Belén Dayub, el proyecto combina sensibilidad artística, dominio técnico y lectura escénica para transformar cada evento en una experiencia visual única.",
-      paragraph3:
-        "Trabajamos en tiempo real, integrando visuales, música y performance para construir escenas que impactan y conectan con el público.",
+        "Trabajamos con un enfoque integral que prioriza la excelencia técnica y la coordinación con cada área involucrada en la producción, asegurando que cada evento alcance el más alto nivel de sofisticación y calidad.",
     },
     en: {
-      title: "What is PRISMA?",
+      title: "Who We Are?",
       paragraph1:
-        "Prisma Visual Live is a creative studio focused on the design and operation of live visuals for events.",
+        "At Prisma Visual Live, we are a team dedicated to designing visual experiences for high-end events. Our specialty lies in real-time video technical operation, mastery of advanced digital tools, and efficient management, always accompanied by meticulous attention to interpersonal relationships.",
       paragraph2:
-        "Led by Belén Dayub, the project combines artistic sensitivity, technical expertise, and stage awareness to transform each event into a unique visual experience.",
-      paragraph3:
-        "We work in real time, integrating visuals, music, and performance to build scenes that captivate and connect with the audience.",
+        "We work with a comprehensive approach that prioritizes technical excellence and coordination with each area involved in production, ensuring that each event reaches the highest level of sophistication and quality.",
     },
   }
 
@@ -40,7 +36,6 @@ export default function AboutUs() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">{content[language].title}</h2>
             <p className="text-muted-foreground mb-6">{content[language].paragraph1}</p>
             <p className="text-muted-foreground">{content[language].paragraph2}</p>
-            <p className="text-muted-foreground">{content[language].paragraph3}</p>
           </div>
           <div className="relative w-full aspect-[4/3]">
             <Image
